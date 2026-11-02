@@ -1,0 +1,13 @@
+{
+  "provenance": "VitalDB case 1, Primus/ETCO2, cached at 100 Hz; raw segment [355, 380) s",
+  "sampling_rate": 100,
+  "n_samples": 2500,
+  "default": "NaN",
+  "nonzero_samples": [
+    [403, 6.0],
+    [1028, 6.0],
+    [1652, 6.0],
+    [2289, 15.0]
+  ],
+  "note": "The first low reading (4.03 s local, 359.03 s original) ffill-feeds the first low grid cell at local 5 s, which is the actual event start. A slice-only counter misses it."
+}

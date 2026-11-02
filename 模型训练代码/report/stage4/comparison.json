@@ -1,0 +1,832 @@
+{
+  "methods": {
+    "stage3_u15": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 189,
+      "fn": 114,
+      "fp": 1082,
+      "event_recall": 0.6237623762376238,
+      "event_ppv": 0.14870180959874116,
+      "event_f1": 0.24015247776365947,
+      "raw_alarm_episodes": 2956,
+      "n_alarm_segments": 1271,
+      "unscorable_alarm_episodes": 341,
+      "unscorable_alarm_duration": 46200.369999999995,
+      "alarms_per_hour": 2.1625964769660504,
+      "alarm_duration_fraction": 0.023003700745348073,
+      "fa_per_hour_scorable": 1.8410144674093365,
+      "fa_per_hour_total": 1.6545986283635636,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 189,
+        "median": -1.0,
+        "p90": 33.59999999999884,
+        "median_nonnegative": 12.355000000000473,
+        "p90_nonnegative": 52.62400000000041,
+        "n_early": 99,
+        "median_early_lead": 45.88999999999942,
+        "p90_early_lead": 308.13799999999975,
+        "detect_30s": 0.5544554455445545,
+        "detect_60s": 0.6006600660066007,
+        "detect_90s": 0.6006600660066007
+      },
+      "suspect": {
+        "n_suspect_segments": 2625,
+        "unscorable_suspect_episodes": 509,
+        "pre_onset_matches": 59,
+        "post_onset_matches": 109,
+        "matched_truth": 168,
+        "unmatched_suspects": 2457,
+        "suspect_recall_pre": 0.19471947194719472,
+        "suspect_recall_post": 0.35973597359735976,
+        "suspect_recall_any": 0.5544554455445545,
+        "suspects_per_hour": 4.466416799398806,
+        "false_suspects_per_hour": 4.1805661242372825,
+        "suspect_duration_fraction": 0.0354275707891615,
+        "median_lead": 2.709999999999127,
+        "median_post_ttd": 5.199999999999989
+      },
+      "engine": {
+        "episodes": 2956,
+        "episodes_ended_unknown": 909,
+        "low_confidence_active_episodes": 0,
+        "unknown_decisions": 9483,
+        "total_decisions": 309706,
+        "unknown_decision_fraction": 0.030619361588086765,
+        "interruptions": 109,
+        "gap_interruptions": 109
+      }
+    },
+    "stage3_u30": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 213,
+      "fn": 90,
+      "fp": 959,
+      "event_recall": 0.7029702970297029,
+      "event_ppv": 0.181740614334471,
+      "event_f1": 0.2888135593220339,
+      "raw_alarm_episodes": 1743,
+      "n_alarm_segments": 1172,
+      "unscorable_alarm_episodes": 248,
+      "unscorable_alarm_duration": 39035.670000000006,
+      "alarms_per_hour": 1.9941487576744383,
+      "alarm_duration_fraction": 0.03299975422891686,
+      "fa_per_hour_scorable": 1.631730937380364,
+      "fa_per_hour_total": 1.4665065476900716,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 213,
+        "median": -17.0,
+        "p90": 28.80000000000001,
+        "median_nonnegative": 16.805000000000007,
+        "p90_nonnegative": 81.4700000000002,
+        "n_early": 135,
+        "median_early_lead": 53.0,
+        "p90_early_lead": 276.1760000000006,
+        "detect_30s": 0.636963696369637,
+        "detect_60s": 0.6666666666666666,
+        "detect_90s": 0.6765676567656765
+      },
+      "suspect": {
+        "n_suspect_segments": 1593,
+        "unscorable_suspect_episodes": 334,
+        "pre_onset_matches": 28,
+        "post_onset_matches": 81,
+        "matched_truth": 109,
+        "unmatched_suspects": 1484,
+        "suspect_recall_pre": 0.0924092409240924,
+        "suspect_recall_post": 0.26732673267326734,
+        "suspect_recall_any": 0.35973597359735976,
+        "suspects_per_hour": 2.710476937692304,
+        "false_suspects_per_hour": 2.525014297260125,
+        "suspect_duration_fraction": 0.040146314142707924,
+        "median_lead": 4.965000000000003,
+        "median_post_ttd": 8.70999999999998
+      },
+      "engine": {
+        "episodes": 1743,
+        "episodes_ended_unknown": 610,
+        "low_confidence_active_episodes": 0,
+        "unknown_decisions": 5140,
+        "total_decisions": 154626,
+        "unknown_decision_fraction": 0.03324149884236804,
+        "interruptions": 109,
+        "gap_interruptions": 109
+      }
+    },
+    "single_u60": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 182,
+      "fn": 121,
+      "fp": 691,
+      "event_recall": 0.6006600660066007,
+      "event_ppv": 0.20847651775486828,
+      "event_f1": 0.30952380952380953,
+      "raw_alarm_episodes": 1078,
+      "n_alarm_segments": 873,
+      "unscorable_alarm_episodes": 182,
+      "unscorable_alarm_duration": 37887.06,
+      "alarms_per_hour": 1.4854026155714888,
+      "alarm_duration_fraction": 0.0412496703359029,
+      "fa_per_hour_scorable": 1.1757310508131715,
+      "fa_per_hour_total": 1.056679900368967,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 182,
+        "median": -54.51500000000033,
+        "p90": 21.881000000000316,
+        "median_nonnegative": 17.560000000000002,
+        "p90_nonnegative": 138.40000000000012,
+        "n_early": 138,
+        "median_early_lead": 100.5,
+        "p90_early_lead": 387.4259999999998,
+        "detect_30s": 0.5511551155115512,
+        "detect_60s": 0.570957095709571,
+        "detect_90s": 0.5742574257425742
+      },
+      "suspect": {
+        "n_suspect_segments": 982,
+        "unscorable_suspect_episodes": 241,
+        "pre_onset_matches": 6,
+        "post_onset_matches": 41,
+        "matched_truth": 47,
+        "unmatched_suspects": 935,
+        "suspect_recall_pre": 0.019801980198019802,
+        "suspect_recall_post": 0.1353135313531353,
+        "suspect_recall_any": 0.1551155115511551,
+        "suspects_per_hour": 1.6708652560036676,
+        "false_suspects_per_hour": 1.5908951266430034,
+        "suspect_duration_fraction": 0.0447023475864807,
+        "median_lead": 6.0549999999993815,
+        "median_post_ttd": 12.110000000000582
+      },
+      "engine": {
+        "episodes": 1078,
+        "episodes_ended_unknown": 357,
+        "low_confidence_active_episodes": 0,
+        "unknown_decisions": 2773,
+        "total_decisions": 77077,
+        "unknown_decision_fraction": 0.035977010002984026,
+        "interruptions": 108,
+        "gap_interruptions": 108
+      }
+    },
+    "single_u90": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 165,
+      "fn": 138,
+      "fp": 599,
+      "event_recall": 0.5445544554455446,
+      "event_ppv": 0.21596858638743455,
+      "event_f1": 0.30927835051546393,
+      "raw_alarm_episodes": 852,
+      "n_alarm_segments": 764,
+      "unscorable_alarm_episodes": 140,
+      "unscorable_alarm_duration": 34573.42,
+      "alarms_per_hour": 1.2999399751393097,
+      "alarm_duration_fraction": 0.04797857537846383,
+      "fa_per_hour_scorable": 1.0191937763199561,
+      "fa_per_hour_total": 0.9159931408408268,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 165,
+        "median": -57.69000000000051,
+        "p90": 27.558000000000014,
+        "median_nonnegative": 20.650000000001455,
+        "p90_nonnegative": 70.45200000000033,
+        "n_early": 126,
+        "median_early_lead": 114.0,
+        "p90_early_lead": 389.8899999999994,
+        "detect_30s": 0.49504950495049505,
+        "detect_60s": 0.5313531353135313,
+        "detect_90s": 0.5313531353135313
+      },
+      "suspect": {
+        "n_suspect_segments": 822,
+        "unscorable_suspect_episodes": 172,
+        "pre_onset_matches": 9,
+        "post_onset_matches": 30,
+        "matched_truth": 39,
+        "unmatched_suspects": 783,
+        "suspect_recall_pre": 0.0297029702970297,
+        "suspect_recall_post": 0.09900990099009901,
+        "suspect_recall_any": 0.12871287128712872,
+        "suspects_per_hour": 1.3986265177545976,
+        "false_suspects_per_hour": 1.3322683253063867,
+        "suspect_duration_fraction": 0.050401433979742796,
+        "median_lead": 2.0,
+        "median_post_ttd": 10.0
+      },
+      "engine": {
+        "episodes": 852,
+        "episodes_ended_unknown": 261,
+        "low_confidence_active_episodes": 0,
+        "unknown_decisions": 1922,
+        "total_decisions": 51245,
+        "unknown_decision_fraction": 0.03750609815591765,
+        "interruptions": 108,
+        "gap_interruptions": 108
+      }
+    },
+    "best_single": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 182,
+      "fn": 121,
+      "fp": 691,
+      "event_recall": 0.6006600660066007,
+      "event_ppv": 0.20847651775486828,
+      "event_f1": 0.30952380952380953,
+      "raw_alarm_episodes": 1078,
+      "n_alarm_segments": 873,
+      "unscorable_alarm_episodes": 182,
+      "unscorable_alarm_duration": 37887.06,
+      "alarms_per_hour": 1.4854026155714888,
+      "alarm_duration_fraction": 0.0412496703359029,
+      "fa_per_hour_scorable": 1.1757310508131715,
+      "fa_per_hour_total": 1.056679900368967,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 182,
+        "median": -54.51500000000033,
+        "p90": 21.881000000000316,
+        "median_nonnegative": 17.560000000000002,
+        "p90_nonnegative": 138.40000000000012,
+        "n_early": 138,
+        "median_early_lead": 100.5,
+        "p90_early_lead": 387.4259999999998,
+        "detect_30s": 0.5511551155115512,
+        "detect_60s": 0.570957095709571,
+        "detect_90s": 0.5742574257425742
+      },
+      "suspect": {
+        "n_suspect_segments": 982,
+        "unscorable_suspect_episodes": 241,
+        "pre_onset_matches": 6,
+        "post_onset_matches": 41,
+        "matched_truth": 47,
+        "unmatched_suspects": 935,
+        "suspect_recall_pre": 0.019801980198019802,
+        "suspect_recall_post": 0.1353135313531353,
+        "suspect_recall_any": 0.1551155115511551,
+        "suspects_per_hour": 1.6708652560036676,
+        "false_suspects_per_hour": 1.5908951266430034,
+        "suspect_duration_fraction": 0.0447023475864807,
+        "median_lead": 6.0549999999993815,
+        "median_post_ttd": 12.110000000000582
+      },
+      "engine": {
+        "episodes": 1078,
+        "episodes_ended_unknown": 357,
+        "low_confidence_active_episodes": 0,
+        "unknown_decisions": 2773,
+        "total_decisions": 77077,
+        "unknown_decision_fraction": 0.035977010002984026,
+        "interruptions": 108,
+        "gap_interruptions": 108
+      }
+    },
+    "fusion": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 0,
+      "n_low_support_events": 60,
+      "tp": 206,
+      "fn": 97,
+      "fp": 659,
+      "event_recall": 0.6798679867986799,
+      "event_ppv": 0.23815028901734103,
+      "event_f1": 0.3527397260273973,
+      "raw_alarm_episodes": 1308,
+      "n_alarm_segments": 865,
+      "unscorable_alarm_episodes": 105,
+      "unscorable_alarm_duration": 11632.590000000004,
+      "alarms_per_hour": 1.4717906786590351,
+      "alarm_duration_fraction": 0.044268764858516205,
+      "fa_per_hour_scorable": 1.1212833031633573,
+      "fa_per_hour_total": 1.0077453753157009,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 206,
+        "median": -111.25,
+        "p90": 15.25,
+        "median_nonnegative": 15.25,
+        "p90_nonnegative": 59.29999999999998,
+        "n_early": 164,
+        "median_early_lead": 166.5,
+        "p90_early_lead": 523.0000000000005,
+        "detect_30s": 0.6468646864686468,
+        "detect_60s": 0.6633663366336634,
+        "detect_90s": 0.6765676567656765
+      },
+      "suspect": {
+        "n_suspect_segments": 1377,
+        "unscorable_suspect_episodes": 177,
+        "pre_onset_matches": 16,
+        "post_onset_matches": 71,
+        "matched_truth": 87,
+        "unmatched_suspects": 1290,
+        "suspect_recall_pre": 0.052805280528052806,
+        "suspect_recall_post": 0.23432343234323433,
+        "suspect_recall_any": 0.2871287128712871,
+        "suspects_per_hour": 2.3429546410560596,
+        "false_suspects_per_hour": 2.1949248271331276,
+        "suspect_duration_fraction": 0.05379898761219214,
+        "median_lead": 5.75,
+        "median_post_ttd": 7.0
+      },
+      "engine": {
+        "episodes": 1308,
+        "episodes_ended_unknown": 245,
+        "low_confidence_active_episodes": 0,
+        "unknown_decisions": 12260,
+        "total_decisions": 313583,
+        "unknown_decision_fraction": 0.039096507144838845,
+        "interruptions": 0,
+        "gap_interruptions": 0
+      }
+    },
+    "b0_u15": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 175,
+      "fn": 128,
+      "fp": 1307,
+      "event_recall": 0.5775577557755776,
+      "event_ppv": 0.11808367071524967,
+      "event_f1": 0.19607843137254902,
+      "raw_alarm_episodes": 1801,
+      "n_alarm_segments": 1482,
+      "unscorable_alarm_episodes": 420,
+      "unscorable_alarm_duration": 56200.630000000005,
+      "alarms_per_hour": 2.521611313032012,
+      "alarm_duration_fraction": 0.016323018825119693,
+      "fa_per_hour_scorable": 2.2238501930720913,
+      "fa_per_hour_total": 1.9986695076443415,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 175,
+        "median": 9.0,
+        "p90": 36.650000000000894,
+        "median_nonnegative": 15.370000000000005,
+        "p90_nonnegative": 50.999999999999986,
+        "n_early": 52,
+        "median_early_lead": 5.559999999999491,
+        "p90_early_lead": 15.138000000000828,
+        "detect_30s": 0.4884488448844885,
+        "detect_60s": 0.5478547854785478,
+        "detect_90s": 0.5511551155115512
+      },
+      "suspect": {
+        "n_suspect_segments": 1482,
+        "unscorable_suspect_episodes": 420,
+        "pre_onset_matches": 72,
+        "post_onset_matches": 84,
+        "matched_truth": 156,
+        "unmatched_suspects": 1326,
+        "suspect_recall_pre": 0.2376237623762376,
+        "suspect_recall_post": 0.27722772277227725,
+        "suspect_recall_any": 0.5148514851485149,
+        "suspects_per_hour": 2.521611313032012,
+        "false_suspects_per_hour": 2.2561785432391686,
+        "suspect_duration_fraction": 0.016323018825119693,
+        "median_lead": 3.9000000000005457,
+        "median_post_ttd": 8.94000000000051
+      }
+    },
+    "b0_u30": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 192,
+      "fn": 111,
+      "fp": 1213,
+      "event_recall": 0.6336633663366337,
+      "event_ppv": 0.13665480427046264,
+      "event_f1": 0.22482435597189696,
+      "raw_alarm_episodes": 1592,
+      "n_alarm_segments": 1405,
+      "unscorable_alarm_episodes": 333,
+      "unscorable_alarm_duration": 48492.89000000001,
+      "alarms_per_hour": 2.3905964202496466,
+      "alarm_duration_fraction": 0.02311667036898747,
+      "fa_per_hour_scorable": 2.0639099343507628,
+      "fa_per_hour_total": 1.8549243403003721,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 192,
+        "median": 4.509999999998399,
+        "p90": 45.82900000000001,
+        "median_nonnegative": 18.0,
+        "p90_nonnegative": 66.48400000000045,
+        "n_early": 85,
+        "median_early_lead": 10.639999999999418,
+        "p90_early_lead": 42.67600000000021,
+        "detect_30s": 0.5214521452145214,
+        "detect_60s": 0.594059405940594,
+        "detect_90s": 0.6006600660066007
+      },
+      "suspect": {
+        "n_suspect_segments": 1405,
+        "unscorable_suspect_episodes": 333,
+        "pre_onset_matches": 57,
+        "post_onset_matches": 74,
+        "matched_truth": 131,
+        "unmatched_suspects": 1274,
+        "suspect_recall_pre": 0.18811881188118812,
+        "suspect_recall_post": 0.24422442244224424,
+        "suspect_recall_any": 0.43234323432343236,
+        "suspects_per_hour": 2.3905964202496466,
+        "false_suspects_per_hour": 2.1677009533082208,
+        "suspect_duration_fraction": 0.02311667036898747,
+        "median_lead": 5.920000000000073,
+        "median_post_ttd": 11.0
+      }
+    },
+    "b0_u60": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 196,
+      "fn": 107,
+      "fp": 808,
+      "event_recall": 0.6468646864686468,
+      "event_ppv": 0.1952191235059761,
+      "event_f1": 0.2999234889058914,
+      "raw_alarm_episodes": 1105,
+      "n_alarm_segments": 1004,
+      "unscorable_alarm_episodes": 236,
+      "unscorable_alarm_duration": 44833.66,
+      "alarms_per_hour": 1.7082980825129148,
+      "alarm_duration_fraction": 0.03334837105761914,
+      "fa_per_hour_scorable": 1.374805628157804,
+      "fa_per_hour_total": 1.2355967575949718,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 196,
+        "median": -12.210000000000036,
+        "p90": 29.980000000000018,
+        "median_nonnegative": 18.0,
+        "p90_nonnegative": 132.65199999999902,
+        "n_early": 131,
+        "median_early_lead": 24.0,
+        "p90_early_lead": 65.0,
+        "detect_30s": 0.5808580858085809,
+        "detect_60s": 0.6039603960396039,
+        "detect_90s": 0.6105610561056105
+      },
+      "suspect": {
+        "n_suspect_segments": 1004,
+        "unscorable_suspect_episodes": 236,
+        "pre_onset_matches": 27,
+        "post_onset_matches": 51,
+        "matched_truth": 78,
+        "unmatched_suspects": 926,
+        "suspect_recall_pre": 0.0891089108910891,
+        "suspect_recall_post": 0.16831683168316833,
+        "suspect_recall_any": 0.25742574257425743,
+        "suspects_per_hour": 1.7082980825129148,
+        "false_suspects_per_hour": 1.5755816976164931,
+        "suspect_duration_fraction": 0.03334837105761914,
+        "median_lead": 5.920000000000073,
+        "median_post_ttd": 12.410000000000025
+      }
+    },
+    "b0_u90": {
+      "n_cases": 200,
+      "n_truth_events": 303,
+      "n_truth_events_no_window_cases": 2,
+      "n_low_support_events": 60,
+      "tp": 179,
+      "fn": 124,
+      "fp": 675,
+      "event_recall": 0.5907590759075908,
+      "event_ppv": 0.20960187353629978,
+      "event_f1": 0.3094209161624892,
+      "raw_alarm_episodes": 896,
+      "n_alarm_segments": 854,
+      "unscorable_alarm_episodes": 176,
+      "unscorable_alarm_duration": 40092.47,
+      "alarms_per_hour": 1.4530742654044115,
+      "alarm_duration_fraction": 0.039452776504284456,
+      "fa_per_hour_scorable": 1.1485071769882644,
+      "fa_per_hour_total": 1.032212637842334,
+      "scorable_hours": 587.7194444444444,
+      "total_hours": 653.9350277777778,
+      "excluded_hours": 66.24444444444444,
+      "reference_unknown_excluded_hours": 66.0775,
+      "low_support_excluded_hours": 0.16694444444444445,
+      "low_support_unknown_overlap_hours": 0.0,
+      "ttd_s": {
+        "n": 179,
+        "median": -20.360000000000127,
+        "p90": 33.959999999999944,
+        "median_nonnegative": 20.825000000000728,
+        "p90_nonnegative": 120.87999999999957,
+        "n_early": 125,
+        "median_early_lead": 29.709999999999127,
+        "p90_early_lead": 130.31200000000027,
+        "detect_30s": 0.5214521452145214,
+        "detect_60s": 0.5676567656765676,
+        "detect_90s": 0.5676567656765676
+      },
+      "suspect": {
+        "n_suspect_segments": 854,
+        "unscorable_suspect_episodes": 176,
+        "pre_onset_matches": 14,
+        "post_onset_matches": 37,
+        "matched_truth": 51,
+        "unmatched_suspects": 803,
+        "suspect_recall_pre": 0.0462046204620462,
+        "suspect_recall_post": 0.12211221122112212,
+        "suspect_recall_any": 0.16831683168316833,
+        "suspects_per_hour": 1.4530742654044115,
+        "false_suspects_per_hour": 1.3662981675875205,
+        "suspect_duration_fraction": 0.039452776504284456,
+        "median_lead": 4.5,
+        "median_post_ttd": 11.100000000000364
+      }
+    }
+  },
+  "paired_differences": {
+    "fusion_vs_best_single": {
+      "point": {
+        "event_recall": 0.07920792079207917,
+        "event_ppv": 0.029673771262472753,
+        "event_f1": 0.04321591650358775,
+        "fa_per_hour_scorable": -0.05444774764981419,
+        "alarm_duration_fraction": 0.0030190945226133067
+      },
+      "ci95": {
+        "event_recall": [
+          0.03560149311635613,
+          0.12145924707602332
+        ],
+        "event_ppv": [
+          0.016559898522273086,
+          0.042685833497440547
+        ],
+        "event_f1": [
+          0.024023772860028422,
+          0.061832882918089874
+        ],
+        "fa_per_hour_scorable": [
+          -0.1083333194279803,
+          -0.006632692823374257
+        ],
+        "alarm_duration_fraction": [
+          0.0019350107440502203,
+          0.004178486173995167
+        ]
+      },
+      "n_boot": 1000,
+      "seed": 42
+    },
+    "fusion_vs_u15": {
+      "point": {
+        "event_recall": 0.05610561056105612,
+        "event_ppv": 0.08944847941859987,
+        "event_f1": 0.11258724826373781,
+        "fa_per_hour_scorable": -0.7197311642459792,
+        "alarm_duration_fraction": 0.02126506411316813
+      },
+      "ci95": {
+        "event_recall": [
+          0.0,
+          0.11180404511514226
+        ],
+        "event_ppv": [
+          0.06979915914677713,
+          0.1090487129553617
+        ],
+        "event_f1": [
+          0.08555105582706062,
+          0.13811466459422528
+        ],
+        "fa_per_hour_scorable": [
+          -0.8604095805771221,
+          -0.6111588578273602
+        ],
+        "alarm_duration_fraction": [
+          0.01878880872736319,
+          0.024346758443350835
+        ]
+      },
+      "n_boot": 1000,
+      "seed": 42
+    },
+    "fusion_vs_u30": {
+      "point": {
+        "event_recall": -0.02310231023102305,
+        "event_ppv": 0.05640967468287003,
+        "event_f1": 0.06392616670536339,
+        "fa_per_hour_scorable": -0.5104476342170066,
+        "alarm_duration_fraction": 0.011269010629599348
+      },
+      "ci95": {
+        "event_recall": [
+          -0.08119657241492678,
+          0.03166088199264999
+        ],
+        "event_ppv": [
+          0.039386349687954514,
+          0.0743724422624248
+        ],
+        "event_f1": [
+          0.039708700701036055,
+          0.08841630171610082
+        ],
+        "fa_per_hour_scorable": [
+          -0.6226017943714003,
+          -0.41710333735694644
+        ],
+        "alarm_duration_fraction": [
+          0.009278542936110879,
+          0.01339615459088857
+        ]
+      },
+      "n_boot": 1000,
+      "seed": 42
+    },
+    "best_single_vs_u15": {
+      "point": {
+        "event_recall": -0.02310231023102305,
+        "event_ppv": 0.05977470815612712,
+        "event_f1": 0.06937133176015006,
+        "fa_per_hour_scorable": -0.665283416596165,
+        "alarm_duration_fraction": 0.018245969590554825
+      },
+      "ci95": {
+        "event_recall": [
+          -0.07407734589713388,
+          0.02885227272727273
+        ],
+        "event_ppv": [
+          0.04163208938000419,
+          0.07844670977589309
+        ],
+        "event_f1": [
+          0.04229002130654873,
+          0.09610176565739478
+        ],
+        "fa_per_hour_scorable": [
+          -0.783379909675982,
+          -0.560912823193143
+        ],
+        "alarm_duration_fraction": [
+          0.01595066973746097,
+          0.020853948952689303
+        ]
+      },
+      "n_boot": 1000,
+      "seed": 42
+    },
+    "best_single_vs_u30": {
+      "point": {
+        "event_recall": -0.10231023102310222,
+        "event_ppv": 0.026735903420397278,
+        "event_f1": 0.020710250201775637,
+        "fa_per_hour_scorable": -0.45599988656719237,
+        "alarm_duration_fraction": 0.008249916106986041
+      },
+      "ci95": {
+        "event_recall": [
+          -0.15889959761163033,
+          -0.04822057641384526
+        ],
+        "event_ppv": [
+          0.011017221914874347,
+          0.04454898599331577
+        ],
+        "event_f1": [
+          -0.0036126598035449357,
+          0.046952419689392684
+        ],
+        "fa_per_hour_scorable": [
+          -0.5538053860153113,
+          -0.37538755744014246
+        ],
+        "alarm_duration_fraction": [
+          0.00645751040084206,
+          0.010194173487643019
+        ]
+      },
+      "n_boot": 1000,
+      "seed": 42
+    },
+    "u15_vs_u30": {
+      "point": {
+        "event_recall": -0.07920792079207917,
+        "event_ppv": -0.03303880473572984,
+        "event_f1": -0.048661081558374425,
+        "fa_per_hour_scorable": 0.2092835300289726,
+        "alarm_duration_fraction": -0.009996053483568784
+      },
+      "ci95": {
+        "event_recall": [
+          -0.1348477709314969,
+          -0.027208119019965744
+        ],
+        "event_ppv": [
+          -0.04650593053245641,
+          -0.01949294376238394
+        ],
+        "event_f1": [
+          -0.06986785884768865,
+          -0.027985884820666655
+        ],
+        "fa_per_hour_scorable": [
+          0.09888067939154349,
+          0.3130230113074071
+        ],
+        "alarm_duration_fraction": [
+          -0.012105492155649886,
+          -0.008144296433458624
+        ]
+      },
+      "n_boot": 1000,
+      "seed": 42
+    }
+  },
+  "benefit": {
+    "criteria": {
+      "f1_delta_ge_0_05": false,
+      "recall_delta_ge_minus_0_05": true,
+      "f1_ci_lower_gt_zero": true,
+      "fa_ratio_le_1_10": true
+    },
+    "f1_delta": 0.04321591650358775,
+    "recall_delta": 0.07920792079207917,
+    "fa_delta": -0.05444774764981419,
+    "pass_before_fa_ratio": false,
+    "fa_ratio": 0.9536903039073804,
+    "pass": false,
+    "rule": "F1 +>=5.0 pp AND FA/h <=1.10x best AND recall >= -5.0 pp AND paired F1 CI lower >0"
+  },
+  "n_cases": 200,
+  "n_truth_events": 303,
+  "n_low_support_events": 60
+}

@@ -1,0 +1,79 @@
+{
+  "version": "split_manifest_v2",
+  "seed": 42,
+  "target_test_frac": 0.2,
+  "n_total": 250,
+  "n_test": 50,
+  "n_dev": 200,
+  "test_event_counts": {
+    "u2_events": 73,
+    "u2_cases": 35,
+    "u2_low_support_events": 15,
+    "u2_low_support_cases": 13,
+    "rr3_events": 18,
+    "rr3_cases": 15
+  },
+  "dev_event_counts": {
+    "u2_events": 303,
+    "u2_cases": 143,
+    "u2_low_support_events": 60,
+    "u2_low_support_cases": 46,
+    "rr3_events": 80,
+    "rr3_cases": 57
+  },
+  "strata": {
+    "u2bin0_rr3bin0": {
+      "n": 54,
+      "quota": 11,
+      "u2_events": 0,
+      "rr3_events": 0
+    },
+    "u2bin0_rr3bin1": {
+      "n": 18,
+      "quota": 4,
+      "u2_events": 0,
+      "rr3_events": 19
+    },
+    "u2bin1_rr3bin0": {
+      "n": 96,
+      "quota": 19,
+      "u2_events": 141,
+      "rr3_events": 0
+    },
+    "u2bin1_rr3bin1": {
+      "n": 41,
+      "quota": 8,
+      "u2_events": 57,
+      "rr3_events": 59
+    },
+    "u2bin2_rr3bin0": {
+      "n": 28,
+      "quota": 5,
+      "u2_events": 109,
+      "rr3_events": 0
+    },
+    "u2bin2_rr3bin1": {
+      "n": 13,
+      "quota": 3,
+      "u2_events": 69,
+      "rr3_events": 20
+    }
+  },
+  "repair_log": [],
+  "support_definition": "reliable U2 >=2 actual EtCO2<10 reading runs whose ffill source feeds at least one low grid cell in the event; the source may precede the integer-second event start within the cap; <2 -> low-support / ignore_low_support",
+  "hash_algorithm": "sha256",
+  "hash_targets": [
+    "cases_250.json",
+    "cases_200.json",
+    "final_test_seed42.json",
+    "case_event_counts.json"
+  ],
+  "hashes": {
+    "cases_250.json": "79f3c8f8f5284ec74992ee28d7963c550c0b0c65f7df7b6afe4ce5972d716674",
+    "cases_200.json": "8d6e8d3939700c1f279408502ac8dbe478a8fbd569c2eddf122cc8b2b080516a",
+    "final_test_seed42.json": "e8bab397bf342481bfbcb49ae49477028b85719f8b38c5a430d6f543bd0e2e06",
+    "case_event_counts.json": "07b2d32e39b0a77449f87603ef4a8ab00bee82c4e1409c6935dab4d22cdee26d"
+  },
+  "manifest_hash_file": "split_manifest.sha256",
+  "self_hash_note": "This manifest does not contain its own hash. The sidecar split_manifest.sha256 is the integrity record for this file; hash_targets lists exactly the files whose hashes are in hashes."
+}

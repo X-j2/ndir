@@ -1,0 +1,72 @@
+{
+  "version": "si_feature_spec_v2",
+  "description": "Stage 1 rev2 frozen 15-dimensional scale-invariant feature specification. All computations are at 100 Hz on one window; etco2/rr are labels only and are never inputs.",
+  "sampling_rate_hz": 100,
+  "normalization": {
+    "lower_quantile": 10.0,
+    "upper_quantile": 90.0,
+    "eps": 1e-09,
+    "missing_fill_max_gap_samples": 200
+  },
+  "quality": {
+    "a_invalid_eps": 0.0,
+    "flat_z_threshold": 0.15,
+    "min_flat_sec_for_candidate": 10.0,
+    "max_nan_frac": 0.1,
+    "max_nan_run_sec": 2.0,
+    "noise_ratio_hf_max": 0.25,
+    "saturation_fraction_max": 0.05,
+    "saturation_run_sec": 2.0,
+    "low_amplitude_frac": 0.05,
+    "history_requires_si_peaks_ge": 2
+  },
+  "peaks": {
+    "smooth_samples": 5,
+    "pass1": {
+      "height_z": 0.2,
+      "prominence_z": 0.12,
+      "distance_sec": 1.0,
+      "width_min_sec": 0.25,
+      "width_max_sec": 5.0,
+      "rel_height": 0.5
+    },
+    "pass2": {
+      "height_z": 0.1,
+      "prominence_z": 0.06,
+      "distance_sec": 1.0,
+      "width_min_sec": 0.25,
+      "width_max_sec": 5.0,
+      "rel_height": 0.5
+    },
+    "pass2_requires": {
+      "acf_peak_gt": 0.3,
+      "noise_ratio_lt": 0.25
+    }
+  },
+  "band_ratio": {
+    "low_hz": 0.05,
+    "high_hz": 0.6,
+    "total_high_hz": 2.0
+  },
+  "acf": {
+    "lag_min_sec": 1.5,
+    "lag_max_sec": 8.0
+  },
+  "features": [
+    "rel_mean",
+    "rel_std",
+    "rel_range",
+    "skewness",
+    "peak_interval_mean",
+    "peak_interval_std",
+    "peak_width_mean",
+    "plateau_ratio",
+    "peak_count",
+    "mean_prominence",
+    "peak_rate",
+    "rhythm_confidence",
+    "band_ratio",
+    "acf_peak",
+    "flat_run_frac"
+  ]
+}

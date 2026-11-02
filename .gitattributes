@@ -1,0 +1,3 @@
+# 保留原快照字节，避免换行转换破坏冻结JSON的SHA256。
+* -text
+*.md whitespace=-blank-at-eol

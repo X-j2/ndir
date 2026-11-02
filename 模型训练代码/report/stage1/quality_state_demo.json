@@ -1,0 +1,137 @@
+{
+  "synthetic_only": true,
+  "rows": [
+    {
+      "case": "normal + recent history",
+      "state": "VALID",
+      "unknown": false,
+      "rule_label": "U0",
+      "A": 35.0,
+      "finite_span": 35.0,
+      "constant_flat": false,
+      "quantile_artifact": false,
+      "flat_run_sec": 2.39,
+      "peak_rate": 16.0
+    },
+    {
+      "case": "flat A=0 + recent history",
+      "state": "FLAT_WITH_HISTORY",
+      "unknown": false,
+      "rule_label": "U2",
+      "A": 0.0,
+      "finite_span": 0.0,
+      "constant_flat": true,
+      "quantile_artifact": false,
+      "flat_run_sec": 15.0,
+      "peak_rate": 0.0
+    },
+    {
+      "case": "flat A=0 + no history",
+      "state": "FLAT_NO_HISTORY",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 0.0,
+      "finite_span": 0.0,
+      "constant_flat": true,
+      "quantile_artifact": false,
+      "flat_run_sec": 15.0,
+      "peak_rate": 0.0
+    },
+    {
+      "case": "flat A=0 + insufficient history",
+      "state": "FLAT_HISTORY_UNKNOWN",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 0.0,
+      "finite_span": 0.0,
+      "constant_flat": true,
+      "quantile_artifact": false,
+      "flat_run_sec": 15.0,
+      "peak_rate": 0.0
+    },
+    {
+      "case": "5s missing gap",
+      "state": "GAP",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 35.0,
+      "finite_span": 35.0,
+      "constant_flat": false,
+      "quantile_artifact": false,
+      "flat_run_sec": 6.39,
+      "peak_rate": 12.0
+    },
+    {
+      "case": "clipped at rail",
+      "state": "SATURATED",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 35.0,
+      "finite_span": 35.0,
+      "constant_flat": false,
+      "quantile_artifact": false,
+      "flat_run_sec": 2.39,
+      "peak_rate": 16.0
+    },
+    {
+      "case": "inverted trace",
+      "state": "POLARITY_INVALID",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 35.0,
+      "finite_span": 35.0,
+      "constant_flat": false,
+      "quantile_artifact": false,
+      "flat_run_sec": 1.61,
+      "peak_rate": 12.0
+    },
+    {
+      "case": "high-frequency noise",
+      "state": "NOISY",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 65.77683537175281,
+      "finite_span": 73.04226065180742,
+      "constant_flat": false,
+      "quantile_artifact": false,
+      "flat_run_sec": 0.04,
+      "peak_rate": 16.0
+    },
+    {
+      "case": "low-amplitude noise",
+      "state": "NOISY",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 0.7016468707454925,
+      "finite_span": 1.521695548311071,
+      "constant_flat": false,
+      "quantile_artifact": false,
+      "flat_run_sec": 0.06,
+      "peak_rate": 12.0
+    },
+    {
+      "case": "sparse pulses + recent history",
+      "state": "QUANTILE_ARTIFACT",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 0.0,
+      "finite_span": 40.0,
+      "constant_flat": false,
+      "quantile_artifact": true,
+      "flat_run_sec": 15.0,
+      "peak_rate": 0.0
+    },
+    {
+      "case": "sparse pulses + no history",
+      "state": "QUANTILE_ARTIFACT",
+      "unknown": true,
+      "rule_label": "UNKNOWN",
+      "A": 0.0,
+      "finite_span": 40.0,
+      "constant_flat": false,
+      "quantile_artifact": true,
+      "flat_run_sec": 15.0,
+      "peak_rate": 0.0
+    }
+  ]
+}

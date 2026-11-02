@@ -1,0 +1,10 @@
+# 核心算法、训练与测试；上位机另需其目录中的 requirements.txt。
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+joblib>=1.3
+vitaldb>=1.6
+skl2onnx>=1.15
+onnxruntime>=1.15
+matplotlib>=3.7
+pandas>=2.0

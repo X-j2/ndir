@@ -1,0 +1,19 @@
+{
+  "version": "stage2_model_meta_v2",
+  "feature_spec_version": "si_feature_spec_v2",
+  "quality_spec_version": "stage1_quality_rule_spec_v3",
+  "dataset_fingerprint": "bec1f11d44399a42ad01b905baa2c4399054e694d3b5bb6a57ae0521d265d082",
+  "cache_schema_version": "stage2_dataset_v2",
+  "window_sec": 90.0,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "weight": "u2x30",
+  "calibrator_method": "none",
+  "threshold": 0.05,
+  "model_sha256": "7ebc6093b27d3189f3c3675a27bd5e51300383c747fc76795b66c67fd865e72c",
+  "git_commit": "61d588a0b3798e30db1e5b0c84dc3e155305b59f",
+  "final_test": "sealed"
+}

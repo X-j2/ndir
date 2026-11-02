@@ -1,0 +1,19 @@
+{
+  "version": "stage2_model_meta_v2",
+  "feature_spec_version": "si_feature_spec_v2",
+  "quality_spec_version": "stage1_quality_rule_spec_v3",
+  "dataset_fingerprint": "9983c6e19951f9d422ff4d86c0bc71214746d92ea9782940e4192aabca9b183d",
+  "cache_schema_version": "stage2_dataset_v2",
+  "window_sec": 60.0,
+  "classes": [
+    0,
+    1,
+    2
+  ],
+  "weight": "u2x10",
+  "calibrator_method": "temperature",
+  "threshold": 0.1,
+  "model_sha256": "374cdb2952d8857585a2b40c8ddd799b1b3224d960a3b5fa19a39a33e90e18a2",
+  "git_commit": "61d588a0b3798e30db1e5b0c84dc3e155305b59f",
+  "final_test": "sealed"
+}

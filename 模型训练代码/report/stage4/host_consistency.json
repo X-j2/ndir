@@ -1,0 +1,515 @@
+{
+  "case_id": 1,
+  "duration_sec": 150.0,
+  "sample_timeline": "original 100 Hz -> 25 Hz [::4]",
+  "host_vs_reference_25hz": {
+    "scales": {
+      "U15": {
+        "n_host": 19,
+        "n_reference": 19,
+        "frame_count_diff": 0,
+        "frame_count_equal": true,
+        "decision_time_mismatch": 0,
+        "window_mismatch": 0,
+        "history_mismatch": 0,
+        "state_mismatch": 0,
+        "feature_dim_mismatch": 0,
+        "feature_nonfinite_host": 0,
+        "feature_nonfinite_reference": 0,
+        "feature_tolerance": 1e-09,
+        "feature_tolerance_exceeded": 0,
+        "max_feature_abs_delta": 0.0,
+        "p_none_mismatch": 0,
+        "p_nonfinite_host": 0,
+        "p_nonfinite_reference": 0,
+        "p_tolerance": 1e-09,
+        "p_tolerance_exceeded": 0,
+        "max_p_abs_delta": 1.1102230246251565e-16,
+        "transition_host": [
+          {
+            "kind": "UNKNOWN",
+            "time": 15.0,
+            "episode_id": null
+          },
+          {
+            "kind": "UNKNOWN",
+            "time": 22.5,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 30.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 52.5,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 67.5,
+            "episode_id": 2
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 112.5,
+            "episode_id": 2
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 120.0,
+            "episode_id": 3
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 135.0,
+            "episode_id": 3
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 142.5,
+            "episode_id": 4
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 4
+          }
+        ],
+        "transition_reference": [
+          {
+            "kind": "UNKNOWN",
+            "time": 15.0,
+            "episode_id": null
+          },
+          {
+            "kind": "UNKNOWN",
+            "time": 22.5,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 30.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 52.5,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 67.5,
+            "episode_id": 2
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 112.5,
+            "episode_id": 2
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 120.0,
+            "episode_id": 3
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 135.0,
+            "episode_id": 3
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 142.5,
+            "episode_id": 4
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 4
+          }
+        ],
+        "transition_mismatch": 0,
+        "transition_equal": true,
+        "ok": true,
+        "failure_reasons": []
+      },
+      "U30": {
+        "n_host": 9,
+        "n_reference": 9,
+        "frame_count_diff": 0,
+        "frame_count_equal": true,
+        "decision_time_mismatch": 0,
+        "window_mismatch": 0,
+        "history_mismatch": 0,
+        "state_mismatch": 0,
+        "feature_dim_mismatch": 0,
+        "feature_nonfinite_host": 0,
+        "feature_nonfinite_reference": 0,
+        "feature_tolerance": 1e-09,
+        "feature_tolerance_exceeded": 0,
+        "max_feature_abs_delta": 0.0,
+        "p_none_mismatch": 0,
+        "p_nonfinite_host": 0,
+        "p_nonfinite_reference": 0,
+        "p_tolerance": 1e-09,
+        "p_tolerance_exceeded": 0,
+        "max_p_abs_delta": 2.220446049250313e-16,
+        "transition_host": [
+          {
+            "kind": "UNKNOWN",
+            "time": 30.0,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 45.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "ACTIVE_START",
+            "time": 45.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "ACTIVE_END",
+            "time": 150.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 1
+          }
+        ],
+        "transition_reference": [
+          {
+            "kind": "UNKNOWN",
+            "time": 30.0,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 45.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "ACTIVE_START",
+            "time": 45.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "ACTIVE_END",
+            "time": 150.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 1
+          }
+        ],
+        "transition_mismatch": 0,
+        "transition_equal": true,
+        "ok": true,
+        "failure_reasons": []
+      },
+      "U60": {
+        "n_host": 4,
+        "n_reference": 4,
+        "frame_count_diff": 0,
+        "frame_count_equal": true,
+        "decision_time_mismatch": 0,
+        "window_mismatch": 0,
+        "history_mismatch": 0,
+        "state_mismatch": 0,
+        "feature_dim_mismatch": 0,
+        "feature_nonfinite_host": 0,
+        "feature_nonfinite_reference": 0,
+        "feature_tolerance": 1e-09,
+        "feature_tolerance_exceeded": 0,
+        "max_feature_abs_delta": 0.0,
+        "p_none_mismatch": 0,
+        "p_nonfinite_host": 0,
+        "p_nonfinite_reference": 0,
+        "p_tolerance": 1e-09,
+        "p_tolerance_exceeded": 0,
+        "max_p_abs_delta": 1.1102230246251565e-16,
+        "transition_host": [
+          {
+            "kind": "UNKNOWN",
+            "time": 60.0,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 90.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 1
+          }
+        ],
+        "transition_reference": [
+          {
+            "kind": "UNKNOWN",
+            "time": 60.0,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 90.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 1
+          }
+        ],
+        "transition_mismatch": 0,
+        "transition_equal": true,
+        "ok": true,
+        "failure_reasons": []
+      },
+      "U90": {
+        "n_host": 2,
+        "n_reference": 2,
+        "frame_count_diff": 0,
+        "frame_count_equal": true,
+        "decision_time_mismatch": 0,
+        "window_mismatch": 0,
+        "history_mismatch": 0,
+        "state_mismatch": 0,
+        "feature_dim_mismatch": 0,
+        "feature_nonfinite_host": 0,
+        "feature_nonfinite_reference": 0,
+        "feature_tolerance": 1e-09,
+        "feature_tolerance_exceeded": 0,
+        "max_feature_abs_delta": 0.0,
+        "p_none_mismatch": 0,
+        "p_nonfinite_host": 0,
+        "p_nonfinite_reference": 0,
+        "p_tolerance": 1e-09,
+        "p_tolerance_exceeded": 0,
+        "max_p_abs_delta": 0.0,
+        "transition_host": [
+          {
+            "kind": "UNKNOWN",
+            "time": 90.0,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 135.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 1
+          }
+        ],
+        "transition_reference": [
+          {
+            "kind": "UNKNOWN",
+            "time": 90.0,
+            "episode_id": null
+          },
+          {
+            "kind": "SUSPECT_START",
+            "time": 135.0,
+            "episode_id": 1
+          },
+          {
+            "kind": "SUSPECT_END",
+            "time": 150.0,
+            "episode_id": 1
+          }
+        ],
+        "transition_mismatch": 0,
+        "transition_equal": true,
+        "ok": true,
+        "failure_reasons": []
+      }
+    },
+    "fusion": {
+      "n_host": 19,
+      "n_reference": 19,
+      "frame_count_diff": 0,
+      "frame_count_equal": true,
+      "time_mismatch": 0,
+      "quality_mismatch": 0,
+      "frame_mismatch": 0,
+      "p_none_mismatch": 0,
+      "p_nonfinite_host": 0,
+      "p_nonfinite_reference": 0,
+      "p_tolerance": 1e-09,
+      "p_tolerance_exceeded": 0,
+      "max_p_abs_delta": 1.6653345369377348e-16,
+      "transition_host": [
+        {
+          "kind": "UNKNOWN",
+          "time": 15.0,
+          "episode_id": null
+        },
+        {
+          "kind": "UNKNOWN",
+          "time": 22.5,
+          "episode_id": null
+        },
+        {
+          "kind": "SUSPECT_START",
+          "time": 30.0,
+          "episode_id": 1
+        },
+        {
+          "kind": "ACTIVE_START",
+          "time": 52.5,
+          "episode_id": 1
+        },
+        {
+          "kind": "ACTIVE_END",
+          "time": 150.0,
+          "episode_id": 1
+        },
+        {
+          "kind": "SUSPECT_END",
+          "time": 150.0,
+          "episode_id": 1
+        }
+      ],
+      "transition_reference": [
+        {
+          "kind": "UNKNOWN",
+          "time": 15.0,
+          "episode_id": null
+        },
+        {
+          "kind": "UNKNOWN",
+          "time": 22.5,
+          "episode_id": null
+        },
+        {
+          "kind": "SUSPECT_START",
+          "time": 30.0,
+          "episode_id": 1
+        },
+        {
+          "kind": "ACTIVE_START",
+          "time": 52.5,
+          "episode_id": 1
+        },
+        {
+          "kind": "ACTIVE_END",
+          "time": 150.0,
+          "episode_id": 1
+        },
+        {
+          "kind": "SUSPECT_END",
+          "time": 150.0,
+          "episode_id": 1
+        }
+      ],
+      "transition_mismatch": 0,
+      "transition_equal": true,
+      "ok": true,
+      "failure_reasons": []
+    },
+    "ok": true,
+    "failure_reasons": []
+  },
+  "reference_100hz_vs_25hz": {
+    "scales": {
+      "U15": {
+        "n_100": 19,
+        "n_25": 19,
+        "state_changes": 0,
+        "max_feature_abs_delta": 0.22514479793407993,
+        "max_p_abs_delta": 0.024021848988013184
+      },
+      "U30": {
+        "n_100": 9,
+        "n_25": 9,
+        "state_changes": 0,
+        "max_feature_abs_delta": 0.385,
+        "max_p_abs_delta": 0.08557894815575728
+      },
+      "U60": {
+        "n_100": 4,
+        "n_25": 4,
+        "state_changes": 0,
+        "max_feature_abs_delta": 1.0,
+        "max_p_abs_delta": 0.11618620946165359
+      },
+      "U90": {
+        "n_100": 2,
+        "n_25": 2,
+        "state_changes": 0,
+        "max_feature_abs_delta": 0.0062508312556430745,
+        "max_p_abs_delta": 0.0
+      }
+    },
+    "fusion": {
+      "transition_equal": false,
+      "transition_100": [
+        [
+          "UNKNOWN",
+          15.0
+        ],
+        [
+          "UNKNOWN",
+          22.5
+        ],
+        [
+          "SUSPECT_START",
+          30.0
+        ],
+        [
+          "ACTIVE_START",
+          75.0
+        ],
+        [
+          "ACTIVE_END",
+          150.0
+        ],
+        [
+          "SUSPECT_END",
+          150.0
+        ]
+      ],
+      "transition_25": [
+        [
+          "UNKNOWN",
+          15.0
+        ],
+        [
+          "UNKNOWN",
+          22.5
+        ],
+        [
+          "SUSPECT_START",
+          30.0
+        ],
+        [
+          "ACTIVE_START",
+          52.5
+        ],
+        [
+          "ACTIVE_END",
+          150.0
+        ],
+        [
+          "SUSPECT_END",
+          150.0
+        ]
+      ],
+      "quality_mismatch": 0,
+      "max_p_abs_delta": 0.03423157926230286,
+      "n_100": 6,
+      "n_25": 6
+    }
+  }
+}
